@@ -1,11 +1,9 @@
 # Um algoritmo genético para a seleção de características utilizadas na predição de função de proteínas
 Documentação do trabalho elaborado na Iniciação Cientifica: O Uso de Técnicas de Aprendizado de Máquina na Predição de Função de Proteínas
 
-Orientadora: Cristiane Neri Nobre
-Orientada: Larissa Fernandes Leijôto
+Larissa Fernandes Leijôto, Cristiane Neri Nobre(Orientadora)
 
-
-Artigos que possuem relação com o projeto: 
+Artigos que possuem relação com o projeto:  
 A Genetic Algorithm for the Selection of Features Used in the Prediction of Protein Function. 2014 IEEE International Conference on Bioinformatics and Bioengineering
 Predição de Função de Proteínas Através da Extração de Características Físico-Químicas. Revista de Informática Teórica e Aplicada: RITA  
 
