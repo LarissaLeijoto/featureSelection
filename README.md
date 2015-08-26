@@ -1,4 +1,4 @@
-# Feature Selection
+# Um algoritmo genético para a seleção de características utilizadas na predição de função de proteínas
 Documentação do trabalho elaborado na Iniciação Cientifica: O Uso de Técnicas de Aprendizado de Máquina na Predição de Função de Proteínas
 
 Orientadora: Cristiane Neri Nobre
