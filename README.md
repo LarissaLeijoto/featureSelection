@@ -33,9 +33,9 @@ Realizar a previsão da função de uma proteína a partir da sua sequência é 
 
 ___________________________________________________________________________________________________________________
 
-# Breve drescrição dobre o funcionamento da ferramenta
+# Breve drescrição sobre o funcionamento da ferramenta
 
-A execução do script é feita por linha de comando. O nome do script é: executa.sh. Para executá-lo é necessário um arquivo txt com o código pdb de cada proteína a ser extraída da base.
+A execução do script que faz o download da base de dados de características é feita por linha de comando. O nome do script é: executa.sh. Para executá-lo é necessário um arquivo txt com o código pdb de cada proteína a ser extraída da base.
 Após a execução do script, ele retornará cada proteína como sendo uma tabela .xls. Essa tabela será dividida em dois sheets, cada um contendo N características.
 
 O algoritmo genético implementado e disponibilizado nessa pasta é utilizado para a seleção das características contidas na base de dados Sting_DB. Ao final da execução ele retorna as características que melhor preveram as funções das proteínas contidas na base de dados.
