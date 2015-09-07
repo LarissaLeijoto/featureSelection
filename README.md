@@ -13,7 +13,7 @@ Realizar a previsão da função de uma proteína a partir da sua sequência é 
 > RODRIGUES, Thiago Assis de Oliveira ; LEIJOTO, Larissa Fernandes ; BRANDAO, P. C. O. ; NOBRE, Cristiane Neri . Predição de Função de Proteínas Através da Extração de Características Físico-Químicas. Revista de Informática Teórica e Aplicada: RITA, v. 22, p. 29-51, 2015. 
 
 ## Dissertação desenvolvida a partir do projeto:
-1. Gabriela Teodoro de Oliveira Santos. Predição de função de proteínas. Início: 2013. Dissertação (Mestrado em Programa de Pós Graduação em Informática) - Pontifícia Universidade Católica de Minas Gerais. (Coorientador). Em andamento.
+1. Gabriela Teodoro de Oliveira Santos. Predição de função de proteínas. Início: 2013. Dissertação (Mestrado em Programa de Pós Graduação em Informática) - Pontifícia Universidade Católica de Minas Gerais. (Coorientador). Em andamento.
 
 ## Monografias desenvolvidas a partir do projeto:
 
@@ -54,7 +54,7 @@ export CLASSPATH=$CLASSPATH:$PWD:$PWD/src/LibSVM.jar
 ```
 
 Para compilar e executar:
-```bash
+```java
 java jomp.compiler.Jomp GeneticAlgorithm
 javac -encoding ISO-8859-1 GeneticAlgorithm.java
 java -Djomp.threads=24 GeneticAlgorithm > saida.txt
