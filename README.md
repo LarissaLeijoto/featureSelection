@@ -13,7 +13,7 @@ Realizar a previsão da função de uma proteína a partir da sua sequência é 
 > RODRIGUES, Thiago Assis de Oliveira ; LEIJOTO, Larissa Fernandes ; BRANDAO, P. C. O. ; NOBRE, Cristiane Neri . Predição de Função de Proteínas Através da Extração de Características Físico-Químicas. Revista de Informática Teórica e Aplicada: RITA, v. 22, p. 29-51, 2015. 
 
 ## Dissertação desenvolvida a partir do projeto:
-1. Gabriela Teodoro de Oliveira Santos. Predição de função de proteínas. Início: 2013. Dissertação (Mestrado em Programa de Pós Graduação em Informática) - Pontifícia Universidade Católica de Minas Gerais. (Coorientador). Em andamento.
+1. Gabriela Teodoro de Oliveira Santos. Predição de função de proteínas. Início: 2013. Dissertação (Mestrado em Programa de Pós Graduação em Informática) - Pontifícia Universidade Católica de Minas Gerais. (Coorientador). Em andamento.
 
 ## Monografias desenvolvidas a partir do projeto:
 
@@ -39,3 +39,24 @@ A execução do script que faz o download da base de dados de características �
 Após a execução do script, ele retornará cada proteína como sendo uma tabela .xls. Essa tabela será dividida em dois sheets, cada um contendo N características.
 
 O algoritmo genético implementado e disponibilizado nessa pasta é utilizado para a seleção das características contidas na base de dados Sting_DB. Ao final da execução ele retorna as características que melhor preveram as funções das proteínas contidas na base de dados.
+
+## Como executar:
+Para a execução do algoritmo foi feito um scritpt em Bash com os comando necessários para a realização da ligação das bibliotecas utilizadas, da compilação do programa e de sua execução.
+
+Para a ligação das Bibliotecas com o programa utiliza-se os comandos abaixo:
+```bash
+export CLASSPATH=$CLASSPATH:$PWD:$PWD/lib/jxl.jar
+export CLASSPATH=$CLASSPATH:$PWD:$PWD/lib/jomp1.0b.jar
+export CLASSPATH=$CLASSPATH:$PWD:$PWD/lib/libsvm.jar
+export CLASSPATH=$CLASSPATH:$PWD:$PWD/lib/weka.jar
+export CLASSPATH=$CLASSPATH:$PWD:$PWD/lib/weka-src.jar
+export CLASSPATH=$CLASSPATH:$PWD:$PWD/src/LibSVM.jar 
+```
+
+Para compilar e executar:
+```bash
+java jomp.compiler.Jomp GeneticAlgorithm
+javac -encoding ISO-8859-1 GeneticAlgorithm.java
+java -Djomp.threads=24 GeneticAlgorithm > saida.txt
+```
+Esses comandos são exclusivamente para a execução do programa em ambiente linux, entretando no mesmo arquivo podem ser encotrados os comandos para a execução no Windows. *OBS: Os comandos para execução no windows estão comentados.*
