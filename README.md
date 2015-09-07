@@ -1,6 +1,6 @@
 # O Uso de Técnicas de Aprendizado de Máquina na Predição de Função de Proteínas 
 
-**Larissa Fernandes Leijôto, Luis Enrique Zárate (Colaborador), Cristiane Neri Nobre (Orientadora)**
+**Larissa Fernandes Leijôto, Luis Enrique Zárate (Colaborador), Cristiane Neri Nobre (Coordenadora)**
 
 ## Resumo 
 Realizar a previsão da função de uma proteína a partir da sua sequência é um dos problemas fundamentais da bioinformática, uma vez que os métodos de determinação experimental não conseguem  acompanhar  o  ritmo  a  que  novos  genomas  são  sequenciados.  O  objetivo  desse projeto foi fornecer uma nova metodologia para a predição de função de proteínas através da análise das estruturas das proteínas utilizando-se  Support  Vector Machine  e  Algoritmos  Genéticos.  Para  isso  foi considerado um  conjunto  de  enzimas  analisadas  por  Dobson  e  Doig (2005).
@@ -38,10 +38,10 @@ ________________________________________________________________________________
 A execução do script que faz o download da base de dados de características é feita por linha de comando. O nome do script é: executa.sh. Para executá-lo é necessário um arquivo txt com o código pdb de cada proteína a ser extraída da base.
 Após a execução do script, ele retornará cada proteína como sendo uma tabela .xls. Essa tabela será dividida em dois sheets, cada um contendo N características.
 
-O algoritmo genético implementado e disponibilizado nessa pasta é utilizado para a seleção das características contidas na base de dados Sting_DB. Ao final da execução ele retorna as características que melhor preveram as funções das proteínas contidas na base de dados.
+O algoritmo genético implementado e disponibilizado nessa pasta é utilizado para a seleção das características contidas na base de dados Sting_DB. Ao final da execução, ele retorna as características que melhor descrevem as funções das proteínas contidas na base de dados.
 
 ## Como executar:
-Para a execução do algoritmo foi feito um scritpt em Bash com os comando necessários para a realização da ligação das bibliotecas utilizadas, da compilação do programa e de sua execução.
+Para a execução do algoritmo foi feito um script em Bash com os comandos necessários para a realização da ligação das bibliotecas utilizadas, da compilação do programa e de sua execução.
 
 Para a ligação das Bibliotecas com o programa utiliza-se os comandos abaixo:
 ```bash
